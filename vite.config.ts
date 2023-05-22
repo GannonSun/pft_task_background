@@ -32,8 +32,8 @@ const viteConfig = defineConfig((mode: ConfigEnv) => {
 			hmr: true,
 			proxy: {
 				'/api': {
-					// target: 'http://118.25.4.192:7003',
-					target: 'http://127.0.0.1:7003',
+					target: 'http://118.25.4.192:7003',
+					// target: 'http://127.0.0.1:7003',
 					changeOrigin: true,
 					rewrite: (path) => path.replace(/^\/api/, ''),
 				},

@@ -34,7 +34,7 @@
 </template>
 
 <script setup lang="ts" name="taskUser">
-import { defineAsyncComponent, reactive, toRefs, onMounted } from 'vue';
+import { defineAsyncComponent, reactive, onMounted } from 'vue';
 import { ElMessage } from 'element-plus';
 import { getUserList, setUserStatus } from '/@/api/task';
 
